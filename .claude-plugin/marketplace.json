@@ -1,0 +1,25 @@
+{
+  "name": "harness-engineering-skills",
+  "description": "Claude Code skills for deterministic enterprise AI delivery artifacts, data-driven business models, eval gates, risk controls, and handoff packages.",
+  "owner": {
+    "name": "River-181",
+    "url": "https://github.com/River-181"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Claude Code skills for deterministic enterprise AI delivery artifacts, data-driven business models, eval gates, risk controls, and handoff packages."
+  },
+  "plugins": [
+    {
+      "name": "harness-engineering",
+      "description": "Turn messy product and enterprise AI requirements into deterministic artifacts, business-model checks, executable rules, eval gates, risk controls, and handoff packages.",
+      "version": "0.1.0",
+      "author": {
+        "name": "MangSangOrbit / GoLAB"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/River-181/harness-engineering-skills"
+    }
+  ]
+}
