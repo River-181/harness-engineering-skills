@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Harness Engineering Project Contract",
+  "type": "object",
+  "required": [
+    "project",
+    "artifacts",
+    "quality_gates"
+  ],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": [
+        "name",
+        "domain",
+        "stage"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        },
+        "stage": {
+          "enum": [
+            "discovery",
+            "mvp",
+            "pilot",
+            "production",
+            "handoff"
+          ]
+        },
+        "owner": {
+          "type": "string"
+        },
+        "repo": {
+          "type": "string"
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object"
+    },
+    "rules": {
+      "type": "object"
+    },
+    "evals": {
+      "type": "object"
+    },
+    "quality_gates": {
+      "type": "object"
+    },
+    "risks": {
+      "type": "array"
+    },
+    "decisions": {
+      "type": "array"
+    }
+  }
+}

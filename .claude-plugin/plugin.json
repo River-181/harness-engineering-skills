@@ -1,0 +1,19 @@
+{
+  "name": "harness-engineering",
+  "description": "Claude Code plugin for Harness Engineering: turns messy requirements into deterministic artifacts, business-model checks, executable rules, eval gates, risk controls, and handoff packages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "MangSangOrbit / GoLAB"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/River-181/harness-engineering-skills",
+  "repository": "https://github.com/River-181/harness-engineering-skills",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "enterprise-ai",
+    "delivery",
+    "evals",
+    "risk-controls"
+  ]
+}

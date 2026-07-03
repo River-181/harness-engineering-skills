@@ -1,0 +1,53 @@
+project:
+  name: "jb-localguard-os"
+  domain: "financial-ai-agent"
+  stage: "mvp"
+  owner: "River"
+  repo: "example/local"
+  last_updated: "2026-07-03"
+
+artifacts:
+  source_log: "docs/00_source-log.md"
+  meeting_log: "docs/01_meeting-log.md"
+  business_model: "docs/01_business-model.md"
+  cps: "docs/02_cps.md"
+  principles: "docs/03_principles.md"
+  definitions: "docs/04_definitions.md"
+  domain_model: "docs/05_domain-model.md"
+  prd: "docs/06_prd.md"
+  architecture: "docs/07_architecture.md"
+  feature_spec: "docs/08_feature-spec.md"
+  flow: "docs/09_flow.md"
+  eval_plan: "docs/10_eval-plan.md"
+  change_log: "docs/11_change-log.md"
+  handoff: "docs/12_handoff.md"
+
+quality_gates:
+  docs_complete: true
+  principles_enforced: true
+  domain_model_complete: true
+  features_trace_to_problem: true
+  lint_rules_defined: true
+  evals_defined: true
+  agent_judgment_action_verification: true
+  human_approval_gate: true
+  audit_log_defined: true
+  demo_flow_rehearsed: true
+  known_risks_disclosed: true
+  handoff_ready: true
+
+risks:
+  - id: RISK-PRIVACY-001
+    summary: "Sensitive financial context could be exposed in generated recommendations."
+    mitigation: "Use redacted demo records and require RM approval before action."
+  - id: RISK-ACTION-001
+    summary: "Agent recommendation could be treated as an automatic customer action."
+    mitigation: "Recommendations are draft-only and fail closed without human approval."
+
+decisions:
+  - id: DEC-001
+    summary: "The MVP assists relationship managers instead of contacting customers directly."
+  - id: DEC-002
+    summary: "All demo data is synthetic and audit logs are local files."
+
+open_questions: []

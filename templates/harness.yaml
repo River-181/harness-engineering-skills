@@ -1,0 +1,51 @@
+project:
+  name: "TODO"
+  domain: "generic-enterprise-ai"
+  stage: "discovery"
+  owner: "TODO"
+  repo: "TODO"
+  last_updated: "TODO"
+
+artifacts:
+  source_log: "docs/00_source-log.md"
+  meeting_log: "docs/01_meeting-log.md"
+  business_model: "docs/01_business-model.md"
+  cps: "docs/02_cps.md"
+  principles: "docs/03_principles.md"
+  definitions: "docs/04_definitions.md"
+  domain_model: "docs/05_domain-model.md"
+  prd: "docs/06_prd.md"
+  architecture: "docs/07_architecture.md"
+  feature_spec: "docs/08_feature-spec.md"
+  flow: "docs/09_flow.md"
+  eval_plan: "docs/10_eval-plan.md"
+  change_log: "docs/11_change-log.md"
+  handoff: "docs/12_handoff.md"
+
+rules:
+  naming: "rules/naming-rules.md"
+  imports: "rules/import-export-rules.md"
+  ui: "rules/ui-rules.md"
+  data: "rules/data-rules.md"
+  agent: "rules/agent-rules.md"
+  compliance: "rules/compliance-rules.md"
+
+evals:
+  golden_cases: "evals/golden-cases.md"
+  rubric: "evals/rubric.md"
+  failure_modes: "evals/failure-modes.md"
+
+quality_gates:
+  docs_complete: false
+  principles_enforced: false
+  domain_model_complete: false
+  features_trace_to_problem: false
+  lint_rules_defined: false
+  evals_defined: false
+  demo_flow_rehearsed: false
+  known_risks_disclosed: false
+  handoff_ready: false
+
+risks: []
+decisions: []
+open_questions: []
