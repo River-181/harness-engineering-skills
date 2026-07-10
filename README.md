@@ -4,6 +4,8 @@ Vague enterprise conversations -> deterministic artifacts, business-model checks
 
 This is a Claude Code plugin for teams using AI agents to move from messy product intent to reviewable delivery artifacts. It is not an autonomous deployment system. It creates the normal form that makes implementation, evaluation, demo, and handoff safer.
 
+See [End-to-End Delivery Workflow](WORKFLOW.md) for the combined DDBM -> Harness Engineering -> SDD -> Evidence -> Demo/Pitch lifecycle, including feedback and revision loops.
+
 ## What You Get
 
 ```text
